@@ -1,0 +1,135 @@
+/* BODY */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url("https://images.unsplash.com/photo-1540747913346-19e32dc3e97e");
+
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+    background: rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* LOGO */
+.logo{
+    color: white;
+
+    font-size: 38px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+/* BUTTON AREA */
+.nav-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+/* NAV BUTTONS */
+.nav-buttons button{
+    padding: 12px 22px;
+
+    border: none;
+    border-radius: 30px;
+
+    background: rgba(255,255,255,0.15);
+
+    color: white;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.nav-buttons button:hover{
+    background: orange;
+
+    transform: translateY(-3px);
+}
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    height: 80vh;
+
+    color: white;
+}
+
+/* MAIN HEADING */
+.hero h1{
+    font-size: 90px;
+
+    margin-bottom: 10px;
+
+    text-shadow: 0px 0px 20px rgba(255,255,255,0.3);
+}
+
+/* PARAGRAPH */
+.hero p{
+    font-size: 24px;
+
+    margin-bottom: 30px;
+
+    color: rgba(255,255,255,0.85);
+}
+
+/* WATCH BUTTON */
+.watch-btn{
+    padding: 15px 40px;
+
+    border: none;
+    border-radius: 40px;
+
+    background: orange;
+
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* WATCH BUTTON HOVER */
+.watch-btn:hover{
+    background: darkorange;
+
+    transform: scale(1.08);
+
+    box-shadow: 0px 0px 25px orange;
+}
